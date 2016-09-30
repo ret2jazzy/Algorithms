@@ -1,4 +1,4 @@
-/*This just a simpe selection-sort of array(Vector is better i know) made just for fun*/
+/*This just a simpe bubble-sort of array(Vector is better i know) made just for fun*/
 
 
 #include <iostream>
