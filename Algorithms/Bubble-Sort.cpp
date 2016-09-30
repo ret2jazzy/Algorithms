@@ -1,4 +1,4 @@
-/*This just a simpe bubble-sort of array(Vector is better i know) to sort an array in ascending order*/
+/*This just a simpe bubble-sort algorithm(Vector is better i know) to sort an array in acending order*/
 
 
 #include <iostream>
