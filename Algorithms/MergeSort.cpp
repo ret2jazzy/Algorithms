@@ -1,7 +1,6 @@
-//This is my own implementation of merge sort written all by myself
 #include <iostream>
 #include <vector>
-
+//This will sort the array in descending order
 using namespace std;
 
 void merge(vector<int>&array, int start, int mid, int end)//The sort subroutine
