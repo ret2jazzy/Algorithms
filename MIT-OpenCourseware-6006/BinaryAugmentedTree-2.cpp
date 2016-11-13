@@ -93,6 +93,7 @@ void delNode(Node *&node)//, The main function which deletes a node, Passing the
 {
 	if(node->left == NULL && node->right == NULL){//If it is a leaf, then just remove it
 		free(node);
+		node = NULL;
 		return;
 	}
 	else if(node->left != NULL && node->right != NULL){//If it has two subtrees, then get the lowest from right subtree and write that value in thsi node, and delete that node
